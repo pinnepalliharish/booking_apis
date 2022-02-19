@@ -1,0 +1,24 @@
+db.category.insert(
+[
+    {
+        "id":1,
+        "category":"Deluxe"
+    },
+    {
+        "id":2,
+        "category":"Ordinary"
+    },
+    {
+        "id":3,
+        "category":"3-star"
+    },
+    {
+        "id":4,
+        "category":"Resort"
+    },
+    {
+        "id":5,
+        "category":"5-star"
+    }
+]
+)
