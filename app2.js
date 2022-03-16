@@ -73,6 +73,17 @@ app.get("/filter/:city_id" ,(req,res)=>{
     
 })
 
+
+//hotel details (3rd page)
+app.get("/hotel_data/:id" ,(req,res)=>{
+    let hotelId=Number(req.params.id)
+    db.collection('hotel_details').find({id:hotelId}).toArray((err,result)=>{
+        if(err) throw err;
+        res.send(result)
+    })
+    
+})
+
 //to get info of selected hotel
 app.get("/selected_hotel",(req,res)=>{
     let email=req.query.email;
