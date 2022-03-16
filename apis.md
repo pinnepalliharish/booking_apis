@@ -46,8 +46,8 @@ https://booking-im.herokuapp.com/select_hotel
 
 page 3
 
-http://localhost:7943/selected_hotel      (to get the info of selected hotel)
-https://booking-im.herokuapp.com/selected_hotel
+http://localhost:7943/hotel_data/1      (to get the info of selected hotel)
+https://booking-im.herokuapp.com/hotel_data/1
 
 http://localhost:7943/selected_hotel?email="pbharish@gmail.com"      (to get the info of selected hotel wrt mail given)
 https://booking-im.herokuapp.com/?email="pbharish@gmail.com"
